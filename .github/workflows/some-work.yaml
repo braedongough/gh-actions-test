@@ -1,0 +1,12 @@
+name: Deploy branch
+
+jobs:
+  echo:
+    name: "tell me the action"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - run: echo ${{github.event}}
