@@ -1,4 +1,5 @@
 name: Deploy branch
+on: push
 
 jobs:
   echo:
