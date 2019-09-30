@@ -2,8 +2,8 @@ name: Deploy branch
 on: push
 
 jobs:
-  echo:
-    name: "tell me the action"
+  deploy:
+    name: "butt"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
